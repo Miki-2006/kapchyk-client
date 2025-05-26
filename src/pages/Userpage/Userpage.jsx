@@ -13,11 +13,11 @@ const Userpage = () => {
     const isAuthenticated = useSelector(state => state?.user.isAuthenticated)
     const userData = useSelector(state => state?.user)
     
-    // useEffect(() => {
-    //     if(!isAuthenticated){
-    //         navigate('/register')
-    //     }
-    // }, [])
+    useEffect(() => {
+        if(!isAuthenticated){
+            navigate('/register')
+        }
+    }, [])
 
 
     const getAccountOfUser = async() => {
