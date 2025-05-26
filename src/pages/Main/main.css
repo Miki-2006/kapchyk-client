@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #3D70FF;
+    gap: 10px;
+}
+.form__title{
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.form__input{
+    width: 220px;
+    height: 35px;
+}
+.form__btn{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #3D70FF;
+    border: #3D70FF;
+    color: white;
+}
